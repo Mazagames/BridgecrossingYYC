@@ -28706,6 +28706,12 @@ cr.behaviors.solid = function(runtime)
 	behaviorProto.acts = new Acts();
 }());
 cr.getObjectRefTable = function () { return [
+	cr.plugins_.Rex_Waker,
+	cr.plugins_.TiledBg,
+	cr.plugins_.Sprite,
+	cr.plugins_.Touch,
+	cr.plugins_.Text,
+	cr.plugins_.TextBox,
 	cr.plugins_.NinePatch,
 	cr.plugins_.AJAX,
 	cr.plugins_.Audio,
@@ -28713,12 +28719,6 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Browser,
 	cr.plugins_.LocalStorage,
 	cr.plugins_.Particles,
-	cr.plugins_.Rex_Waker,
-	cr.plugins_.Sprite,
-	cr.plugins_.TextBox,
-	cr.plugins_.Touch,
-	cr.plugins_.TiledBg,
-	cr.plugins_.Text,
 	cr.plugins_.GameAnalytics,
 	cr.behaviors.Physics,
 	cr.behaviors.Rotate,
